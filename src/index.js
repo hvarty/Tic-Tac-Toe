@@ -20,7 +20,7 @@ function Square(props) {
     }
   
     handleClick(i) {
-        console.log("in click method",i)
+        console.log("in click    method",i)
       const squares = this.state.squares.slice();
       if (calculateWinner(squares) || squares[i]) {
         return;
